@@ -3,21 +3,27 @@ layout: default
 title: Experience Hegra Homepage
 cards:
  - title: Hegra Tour
-   price:
+   price: SAR 95
    subtitle: Lorem ipsum
    photo: bg-image
  - title: Hegra Vintage Land Rover
+   price: SAR 1000 per vehicle
    subtitle: Lorem ipsum
    photo: bg-image
  - title: The Living Museum Augmented Reality
+   price: SAR 1200 per vehicle
    subtitle: Lorem ipsum
    photo: bg-image
  - title: Hegra Wildlife & Nature Tour
-   price:
+   price: SAR 150
+   subtitle: Lorem ipsum
+   photo: bg-image
+ - title: Hegra by Horse Carriage
+   price: SAR 135
    subtitle: Lorem ipsum
    photo: bg-image
  - title: Hegra After Dark
-   price:
+   price: SAR 150
    subtitle: Lorem ipsum
    photo: bg-image
 ---
@@ -35,11 +41,16 @@ cards:
         <div class="col-4_xs-11 padded-05"> 
             <div class="card {{item.color}}">
                 <img src="{{item.photo}}">
-                <h4> {{item.price}} </h4>
-                <h3> {{item.title}} </h3>
-                <h4> {{item.subtitle}} </h4>
+                <h4 class="price margin-b-03"> {{item.price}} </h4>
+                <h3 class="margin-b-03"> {{item.title}} </h3>
+                <h4 class="subtitle"> {{item.subtitle}} </h4>
             </div>
         </div>
         {% endfor %}
     </div>
   </section>
+
+<section class="grid text-center padded bg-image tall-40">
+    <h3 class="col-12-bottom featured-text medium-text margin-b-0">Saudi Arabia's first</h3>
+    <h2 class="col-12-top big-text">UNESCO World Heritage Site</h2>
+</section>
