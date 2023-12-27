@@ -4,8 +4,10 @@ title: Articles on Hegra
 articles:
  - title-left: The History of Hegra
    description-left: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore laboriosam odio maiores voluptatem, repudiandae est facilis voluptates minima quas.
+   photo-left: bg-image-11
    title-right: A Sister City to Petra
    description-right: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore laboriosam odio maiores voluptatem, repudiandae est facilis voluptates minima quas.
+   photo-right: bg-image-12
 ---
 
 <!-- Header Banner -->
@@ -14,7 +16,7 @@ articles:
 </section>
 
 <!-- Articles Section -->
-<section class="grid">
+<section class="grid-middle">
     {% for item in page.articles %}
 
     <div class="col-6_sm-12 padded">
@@ -22,10 +24,10 @@ articles:
         <p>{{item.description-left}}</p>
         <a href="#" class="text-right article-button"> Find out more &nbsp; &#10141; </a>
     </div>
-    <div class="col-6_sm-12 bg-image tall-50">
+    <div class="col-6_sm-12 bg-image {{item.photo-left}} tall-60">
         <!-- image right -->
     </div>
-    <div class="col-6_sm-12 bg-image tall-50">
+    <div class="col-6_sm-12 bg-image {{item.photo-right}} tall-60">
         <!-- image left -->
     </div>
     <div class="col-6_sm-12 padded">

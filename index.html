@@ -65,14 +65,19 @@ articles:
 
 <!-- Banner Section -->
 <section class="padded bg-image white-text bg-image-24 tall-50">
-    <div class="grid unesco-banner text-center">
-        <h3 class="col-12-bottom margin-b-0 featured-text big-text">Saudi Arabia's first</h3>
-        <h2 class="col-12-top big-text">UNESCO World Heritage Site</h2>
-    </div>
+  <div class="grid unesco-banner text-center">
+     <h3 class="col-12-bottom margin-b-0 featured-text big-text">Saudi Arabia's first</h3>
+    <h2 class="col-12-top big-text">UNESCO World Heritage Site</h2>
+  </div>
+</section>
+
+<!-- Article Banner Section -->
+<section class="grid-middle padded bg-dark tall-20">
+  <h2>Explore featured articles about <span class="featured-text big-text">Hegra</span></h2>
 </section>
 
 <!-- Articles Section -->
-<section class="grid">
+<section class="grid-middle">
     {% for item in page.articles %}
 
     <div class="col-6_sm-12 padded">
@@ -80,10 +85,10 @@ articles:
         <p>{{item.description-left}}</p>
         <a href="#" class="text-right article-button"> Find out more &nbsp; &#10141; </a>
     </div>
-    <div class="col-6_sm-12 bg-image {{item.photo-left}} tall-50">
+    <div class="col-6_sm-12 bg-image {{item.photo-left}} tall-60">
         <!-- image right -->
     </div>
-    <div class="col-6_sm-12 bg-image {{item.photo-right}} tall-50">
+    <div class="col-6_sm-12 bg-image {{item.photo-right}} tall-60">
         <!-- image left -->
     </div>
     <div class="col-6_sm-12 padded">

@@ -79,6 +79,7 @@ img {
     
 .margin-tb { margin-top: 5%; margin-bottom: 5%; }
 .margin-lr { margin-left: 5%; margin-right: 5%; }
+.tall-20  { min-height: 20vh;  }
 .tall-30  { min-height: 30vh;  }
 .tall-40  { min-height: 40vh;  }
 .tall-50  { min-height: 50vh;  }
