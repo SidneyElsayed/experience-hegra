@@ -5,37 +5,40 @@ cards:
  - title: Hegra Tour
    price: SAR 95
    subtitle: Lorem ipsum
-   photo: bg-image
+   photo: bg-image-22
  - title: Hegra Vintage Land Rover
    price: SAR 1000 per vehicle
    subtitle: Lorem ipsum
-   photo: bg-image
+   photo: bg-image-10
  - title: The Living Museum Augmented Reality
    price: SAR 1200 per vehicle
    subtitle: Lorem ipsum
-   photo: bg-image
+   photo: bg-image-9
  - title: Hegra Wildlife & Nature Tour
    price: SAR 150
    subtitle: Lorem ipsum
-   photo: bg-image
+   photo: bg-image-13
  - title: Hegra by Horse Carriage
    price: SAR 135
    subtitle: Lorem ipsum
-   photo: bg-image
+   photo: bg-image-14
  - title: Hegra After Dark
    price: SAR 150
    subtitle: Lorem ipsum
-   photo: bg-image
+   photo: bg-image-16
 articles:
  - title-left: The History of Hegra
    description-left: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore laboriosam odio maiores voluptatem, repudiandae est facilis voluptates minima quas.
+   photo-left: bg-image-20
    title-right: A Sister City to Petra
    description-right: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore laboriosam odio maiores voluptatem, repudiandae est facilis voluptates minima quas.
+   photo-right: 
 ---
-
-<div class="bg-image tall-70">
-    <!-- Hegra Main Page image -->
-</div>
+<section class="grid">
+    <div class="col-12 bg-image bg-image-7 tall-70">
+        <!-- Hegra Main Page image -->
+    </div>
+</section>
 
 <!-- Booking Options Cards -->
 <section class="padded mob-padded-0">
@@ -45,8 +48,8 @@ articles:
         {% for item in page.cards %}
         <!--   Card 1     -->
         <div class="col-4_xs-11 padded-05"> 
-            <div class="card {{item.color}}">
-                <img src="{{item.photo}}">
+            <div class="card">
+                <img src="url('{{item.photo}}')">
                 <h4 class="price margin-b-03"> {{item.price}} </h4>
                 <h3 class="margin-b-03"> {{item.title}} </h3>
                 <h4 class="subtitle"> {{item.subtitle}} </h4>
@@ -57,9 +60,11 @@ articles:
   </section>
 
 <!-- Banner Section -->
-<section class="grid text-center padded bg-image tall-40">
-    <h3 class="col-12-bottom featured-text medium-text margin-b-0">Saudi Arabia's first</h3>
-    <h2 class="col-12-top big-text">UNESCO World Heritage Site</h2>
+<section class="padded bg-image white-text bg-image-17 tall-40">
+    <div class="grid unesco-banner text-center">
+        <h3 class="col-12-bottom margin-b-0 featured-text big-text">Saudi Arabia's first</h3>
+        <h2 class="col-12-top big-text">UNESCO World Heritage Site</h2>
+    </div>
 </section>
 
 <!-- Articles Section -->
@@ -71,10 +76,10 @@ articles:
         <p>{{item.description-left}}</p>
         <a href="#" class="text-right article-button"> Find out more &nbsp; &#10141; </a>
     </div>
-    <div class="col-6_sm-12 bg-image tall-50">
+    <div class="col-6_sm-12 bg-image {{item.photo-left}} tall-50">
         <!-- image right -->
     </div>
-    <div class="col-6_sm-12 bg-image tall-50">
+    <div class="col-6_sm-12 bg-image {{item.photo-right}} tall-50">
         <!-- image left -->
     </div>
     <div class="col-6_sm-12 padded">
