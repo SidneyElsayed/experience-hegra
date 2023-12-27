@@ -4,27 +4,27 @@ title: Experience Hegra Homepage
 cards:
  - title: Hegra Tour
    price: SAR 95
-   subtitle: Lorem ipsum
+   subtitle: Daytime tour by coach bus
    photo: bg-image-22
  - title: Hegra Vintage Land Rover
    price: SAR 1000 per vehicle
-   subtitle: Lorem ipsum
+   subtitle: Daytime tour with private driver
    photo: bg-image-10
  - title: The Living Museum Augmented Reality
    price: SAR 1200 per vehicle
-   subtitle: Lorem ipsum
-   photo: bg-image-9
+   subtitle: Enhanced tour with AR glasses
+   photo: bg-image-12
  - title: Hegra Wildlife & Nature Tour
    price: SAR 150
-   subtitle: Lorem ipsum
+   subtitle: Safari through a different side of Hegra
    photo: bg-image-13
  - title: Hegra by Horse Carriage
    price: SAR 135
-   subtitle: Lorem ipsum
+   subtitle: Sunrise or sunset tour
    photo: bg-image-14
  - title: Hegra After Dark
    price: SAR 150
-   subtitle: Lorem ipsum
+   subtitle: Limited-time immersive experience
    photo: bg-image-16
 articles:
  - title-left: The History of Hegra
@@ -35,7 +35,7 @@ articles:
    photo-right: 
 ---
 <section class="grid">
-    <div class="col-12 bg-image bg-image-7 tall-70">
+    <div class="col-12 bg-image bg-image-26 tall-70">
         <!-- Hegra Main Page image -->
     </div>
 </section>
@@ -47,13 +47,17 @@ articles:
     
         {% for item in page.cards %}
         <!--   Card 1     -->
-        <div class="col-4_xs-11 padded-05"> 
-            <div class="card">
-                <img src="url('{{item.photo}}')">
-                <h4 class="price margin-b-03"> {{item.price}} </h4>
-                <h3 class="margin-b-03"> {{item.title}} </h3>
-                <h4 class="subtitle"> {{item.subtitle}} </h4>
+        <div class="col-4_xs-11 card padded-05"> 
+          <div>
+            <div class="square bg-image {{item.photo}}">
+              <!-- image -->
             </div>
+            <div class="padded">
+              <h4 class="price margin-b-03"> {{item.price}} </h4>
+              <h3 class="margin-b-03"> {{item.title}} </h3>
+              <h4 class="subtitle"> {{item.subtitle}} </h4>
+            </div>
+          </div>
         </div>
         {% endfor %}
     </div>
