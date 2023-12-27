@@ -11,6 +11,11 @@ featured - Zeyada font-family: 'Zeyada', cursive;
     margin : 0;
     box-sizing: border-box;
     }
+
+img {
+    max-width: 100%;
+    display: block;
+    }
     
 /* Resetting Gridlex Padding */ 
 [class*=col-] {

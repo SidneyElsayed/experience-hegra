@@ -1,9 +1,45 @@
 ---
 layout: default
 title: Experience Hegra Homepage
+cards:
+ - title: Hegra Tour
+   price:
+   subtitle: Lorem ipsum
+   photo: bg-image
+ - title: Hegra Vintage Land Rover
+   subtitle: Lorem ipsum
+   photo: bg-image
+ - title: The Living Museum Augmented Reality
+   subtitle: Lorem ipsum
+   photo: bg-image
+ - title: Hegra Wildlife & Nature Tour
+   price:
+   subtitle: Lorem ipsum
+   photo: bg-image
+ - title: Hegra After Dark
+   price:
+   subtitle: Lorem ipsum
+   photo: bg-image
 ---
 
 <div class="bg-image tall-70">
     <!-- Hegra Main Page image -->
 </div>
 
+<section class="padded mob-padded-0">
+    <h2> Booking Options </h2>
+    <div class="grid horizontal-scroll">
+    
+        {% for item in page.cards %}
+        <!--   Card 1     -->
+        <div class="col-4_xs-11 padded-05"> 
+            <div class="card {{item.color}}">
+                <img src="{{item.photo}}">
+                <h4> {{item.price}} </h4>
+                <h3> {{item.title}} </h3>
+                <h4> {{item.subtitle}} </h4>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+  </section>
