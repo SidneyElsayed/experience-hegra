@@ -176,6 +176,19 @@ footer p {
   .subtitle {
     font-size: 0.9rem;
   }
+
+/* Button Styles */
+
+.article-button {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.article-button:hover {
+    color: rgb(120,120,120);
+}
     
 /* Background Image Utility Classes */ 
 .bg-image, 

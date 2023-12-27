@@ -26,6 +26,11 @@ cards:
    price: SAR 150
    subtitle: Lorem ipsum
    photo: bg-image
+articles:
+ - title-left: The History of Hegra
+   description-left: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore laboriosam odio maiores voluptatem, repudiandae est facilis voluptates minima quas.
+   title-right: A Sister City to Petra
+   description-right: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore laboriosam odio maiores voluptatem, repudiandae est facilis voluptates minima quas.
 ---
 
 <div class="bg-image tall-70">
@@ -53,4 +58,27 @@ cards:
 <section class="grid text-center padded bg-image tall-40">
     <h3 class="col-12-bottom featured-text medium-text margin-b-0">Saudi Arabia's first</h3>
     <h2 class="col-12-top big-text">UNESCO World Heritage Site</h2>
+</section>
+
+<section class="grid">
+    {% for item in page.articles %}
+
+    <div class="col-6_sm-12 padded">
+        <h3>{{item.title-left}}</h3>
+        <p>{{item.description-left}}</p>
+        <a href="#" class="text-right article-button"> Find out more &nbsp; &#10141; </a>
+    </div>
+    <div class="col-6_sm-12 bg-image tall-50">
+        <!-- image right -->
+    </div>
+    <div class="col-6_sm-12 bg-image tall-50">
+        <!-- image left -->
+    </div>
+    <div class="col-6_sm-12 padded">
+        <h3>{{item.title-right}}</h3>
+        <p>{{item.description-right}}</p>
+        <a href="#" class="text-right article-button"> Find out more &nbsp; &#10141; </a>
+    </div>
+
+    {% endfor %}
 </section>
