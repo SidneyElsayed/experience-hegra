@@ -1,0 +1,64 @@
+---
+layout: default
+title: Booking Hegra Experiences
+cards:
+ - title: Hegra Tour
+   price: SAR 95
+   subtitle: Lorem ipsum
+   photo: bg-image
+ - title: Hegra Vintage Land Rover
+   price: SAR 1000 per vehicle
+   subtitle: Lorem ipsum
+   photo: bg-image
+ - title: The Living Museum Augmented Reality
+   price: SAR 1200 per vehicle
+   subtitle: Lorem ipsum
+   photo: bg-image
+ - title: Hegra Wildlife & Nature Tour
+   price: SAR 150
+   subtitle: Lorem ipsum
+   photo: bg-image
+ - title: Hegra by Horse Carriage
+   price: SAR 135
+   subtitle: Lorem ipsum
+   photo: bg-image
+ - title: Hegra After Dark
+   price: SAR 150
+   subtitle: Lorem ipsum
+   photo: bg-image
+---
+<!-- Header Banner -->
+<section class="banner">
+    <h2>How to Book</h2>
+</section>
+
+<!-- Overview Section -->
+<section class="grid padded">
+    <h2 class="col-12">Explore the history of AlUla</h2>
+    <p class="col-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi explicabo odit doloribus facere! Nobis cum est delectus. Fuga aut impedit vero quas non fugit autem quo modi repellat odio. Dolor sit amet consectetur adipisicing elit. Quae animi explicabo odit doloribus facere! Nobis cum est delectus. Fuga aut impedit vero quas non fugit autem quo. </p>
+</section>
+
+<!-- Booking Options Cards -->
+<section class="padded mob-padded-0">
+    <h2> Booking Options </h2>
+    <div class="grid horizontal-scroll">
+    
+        {% for item in page.cards %}
+        <!--   Card 1     -->
+        <div class="col-4_xs-11 padded-05"> 
+            <div class="card {{item.color}}">
+                <img src="{{item.photo}}">
+                <h4 class="price margin-b-03"> {{item.price}} </h4>
+                <h3 class="margin-b-03"> {{item.title}} </h3>
+                <h4 class="subtitle"> {{item.subtitle}} </h4>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+  </section>
+
+<!-- Banner Section -->
+<section class="grid text-center padded bg-image tall-40">
+    <h3 class="col-12-bottom featured-text medium-text margin-b-0">Exhibition at the Visitor Center</h3>
+    <h2 class="col-12-top big-text">Meet Hinat</h2>
+</section>

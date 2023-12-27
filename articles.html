@@ -1,0 +1,38 @@
+---
+layout: default
+title: Articles on Hegra
+articles:
+ - title-left: The History of Hegra
+   description-left: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore laboriosam odio maiores voluptatem, repudiandae est facilis voluptates minima quas.
+   title-right: A Sister City to Petra
+   description-right: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore laboriosam odio maiores voluptatem, repudiandae est facilis voluptates minima quas.
+---
+
+<!-- Header Banner -->
+<section class="banner">
+    <h2>An ancient city</h2>
+</section>
+
+<!-- Articles Section -->
+<section class="grid">
+    {% for item in page.articles %}
+
+    <div class="col-6_sm-12 padded">
+        <h3>{{item.title-left}}</h3>
+        <p>{{item.description-left}}</p>
+        <a href="#" class="text-right article-button"> Find out more &nbsp; &#10141; </a>
+    </div>
+    <div class="col-6_sm-12 bg-image tall-50">
+        <!-- image right -->
+    </div>
+    <div class="col-6_sm-12 bg-image tall-50">
+        <!-- image left -->
+    </div>
+    <div class="col-6_sm-12 padded">
+        <h3>{{item.title-right}}</h3>
+        <p>{{item.description-right}}</p>
+        <a href="#" class="text-right article-button"> Find out more &nbsp; &#10141; </a>
+    </div>
+
+    {% endfor %}
+</section>
