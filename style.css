@@ -101,8 +101,9 @@ h2, h3, h4, h5, h6 {
     }
     
 p {
-    line-height: 1.4; 
+    line-height: 1.6; 
     margin-bottom: 1rem;
+    letter-spacing: 0.05em;
     }
 
 .featured-text { font-family: 'Zeyada', cursive;}
@@ -211,6 +212,11 @@ header nav a {
     display: none;
     background-color: rgb(60,60,60);
     padding: 5%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
    
   }
   
