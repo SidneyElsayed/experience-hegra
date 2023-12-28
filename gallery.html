@@ -28,13 +28,13 @@ gallery:
       background_image: /images/experience-hegra-26.jpg
 ---
 <section class="padded">
-  <div class="grid gallery">
+  <div class="grid gallery id=lightgallery">
 
     {% for item in page.gallery %}
-      <div class="{{item.column-size}}">
+      <a class="{{item.column-size}}" href="{{item.background_image}}">
         <div class="bg-image {{item.aspect-ratio}}" style="background-image: url('{{item.background_image}}');">
         </div>
-      </div>
+      </a>
     {% endfor %}
 
   </div>
