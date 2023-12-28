@@ -2,8 +2,14 @@
 Fonts: 
 body - Playfair Display font-family: 'Playfair Display', serif;
 featured - Zeyada font-family: 'Zeyada', cursive;
-
+text-lato - Lato for copyright at bottom of page
 */
+
+:root {
+    --dark: rgb(60,60,60);
+    --light: rgb(120,120,120);
+    --white: white;
+}
 
 /* Universal Reset */ 
 * {
@@ -24,12 +30,12 @@ img {
 
 /* Padding Utility Classes */ 
 .padded-sm { padding: 2.5%; }
-.padded { padding: 5%;   }
+.padded    { padding: 5%;   }
 .padded-lg { padding: 10%;  }
     
 .padded-05 { padding: 0.5rem; }
-.padded-1 { padding: 1rem; }
-.padded-2 { padding: 2rem; }
+.padded-1  { padding: 1rem; }
+.padded-2  { padding: 2rem; }
     
 .padded-t { padding-top: 5%; }
 .padded-b { padding-bottom: 5%; }
@@ -79,6 +85,7 @@ img {
     
 .margin-tb { margin-top: 5%; margin-bottom: 5%; }
 .margin-lr { margin-left: 5%; margin-right: 5%; }
+
 .tall-20  { min-height: 20vh;  }
 .tall-30  { min-height: 30vh;  }
 .tall-40  { min-height: 40vh;  }
@@ -92,7 +99,7 @@ img {
 /* Typography Styles */ 
 body {
     font-family: 'Playfair Display', serif;
-    color: rgb(60,60,60);
+    color: var(--dark);
 }
 
 h2, h3, h4, h5, h6 {
@@ -109,7 +116,7 @@ p {
 .featured-text { font-family: 'Zeyada', cursive;}
 .text-lato { font-family: 'Lato', sans-serif;}
 
-.white-text { color: white;}
+.white-text { color: var(--white);}
 
 .medium-text { font-size: 2rem; }
 .big-text    { font-size: 3rem;    }
@@ -134,11 +141,11 @@ header {
 
 header a {
   text-decoration: none;
-  color: rgb(60,60,60);
+  color: var(--dark);
 }
 
 header a:hover {
-  color: rgb(120,120,120);
+  color: var(--light);
 }
 
 .logo {
@@ -166,14 +173,14 @@ header nav a {
 
 .price {
     font-size: 1rem;
-    color: rgb(120,120,120);
+    color: var(--light);
   }
 
 .subtitle {
     font-size: 0.8rem;
     font-weight: light;
     letter-spacing: 0.05em;
-    color: rgb(120,120,120);
+    color: var(--light);
   }
 
 .horizontal-scroll {
@@ -196,7 +203,7 @@ header nav a {
   }  
 
   .hamburger-button.active {
-    color: rgb(120,120,120);
+    color: var(--light);
   }
 
 .article-button {
@@ -207,13 +214,13 @@ header nav a {
 }
 
 .article-button:hover {
-    color: rgb(120,120,120);
+    color: var(--light);
 }
 
 /* Mobile Menu Styles */
 .mobile-menu {
     display: none;
-    background-color: rgb(60,60,60);
+    background-color: var(--dark);
     padding: 5%;
     position: fixed;
     top: 0;
@@ -225,7 +232,7 @@ header nav a {
   
   .mobile-menu a {
     text-decoration: none;
-    color: white;
+    color: var(--white);
     padding: 5vh 5%;
     display: block;
   }
@@ -236,7 +243,7 @@ header nav a {
     background-image: url('/images/experience-hegra-25.jpg');
     background-size: cover;
     background-position: 65% 10%;
-    color: white;
+    color: var(--white);
     min-height: 60vh;
     font-size: 4rem;
     display: flex;
@@ -268,8 +275,8 @@ footer p {
 }
 
 .bg-dark {
-    background-color: rgb(60,60,60);
-    color: white;
+    background-color: var(--dark);
+    color: var(--white);
 }
     
 /* Background Image Utility Classes */ 
@@ -358,7 +365,7 @@ footer p {
 
 /* Background of gallery when active  */
 .lg-backdrop {
-    background-color: rgb(60,60,60);
+    background-color: var(--dark);
 }
 
 .lg-backdrop.in {
