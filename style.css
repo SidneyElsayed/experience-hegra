@@ -9,6 +9,8 @@ text-lato - Lato for copyright at bottom of page
     --dark: rgb(60,60,60);
     --light: rgb(120,120,120);
     --white: white;
+    --primary-font: 'Playfair Display', serif;
+    --featured-font: 'Zeyada', cursive;
 }
 
 /* Universal Reset */ 
@@ -98,7 +100,7 @@ img {
     
 /* Typography Styles */ 
 body {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--primary-font);
     color: var(--dark);
 }
 
@@ -113,7 +115,7 @@ p {
     letter-spacing: 0.05em;
     }
 
-.featured-text { font-family: 'Zeyada', cursive;}
+.featured-text { font-family: var(--featured-font);}
 .text-lato { font-family: 'Lato', sans-serif;}
 
 .white-text { color: var(--white);}
@@ -269,7 +271,6 @@ footer p {
 .copyright {
     padding-bottom: 1rem;
     color: rgb(115,110,110);
-    font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 0.9rem;
 }
