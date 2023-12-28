@@ -344,6 +344,15 @@ footer p {
 .gallery [class*="col-"] {
     padding: 0.5%;
     }
+
+/* Background of gallery when active  */
+.lg-backdrop {
+    background-color: rgb(60,60,60);
+}
+
+.lg-backdrop.in {
+    opacity: 0.95;
+}
     
 /* Gridlex Media Queries 
   @media (max-width: 36em)  Max 576px 	_xs-*
@@ -359,6 +368,7 @@ footer p {
 @media (max-width: 48em) {
     .mob-hide    {display: none; }
     .mob-show    {display: block;}
+    .mob-padded  {padding: 5%;}
 
     .logo {
         text-align: left;
