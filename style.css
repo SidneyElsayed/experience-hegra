@@ -107,6 +107,7 @@ p {
     }
 
 .featured-text { font-family: 'Zeyada', cursive;}
+.text-lato { font-family: 'Lato', sans-serif;}
 
 .white-text { color: white;}
 
@@ -169,8 +170,10 @@ header nav a {
   }
 
 .subtitle {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: light;
+    letter-spacing: 0.05em;
+    color: rgb(120,120,120);
   }
 
 .horizontal-scroll {
@@ -254,6 +257,14 @@ header nav a {
 footer p {
     font-size: 0.8rem;
     font-weight: 300;
+}
+
+.copyright {
+    padding-bottom: 1rem;
+    color: rgb(115,110,110);
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
 }
 
 .bg-dark {
