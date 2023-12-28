@@ -1,6 +1,6 @@
 design:
-  dark: 'rgb(60,60,60)'
-  light: 'rgb(120,120,120)'
-  white: 'white'
+  dark_color: 'rgb(60,60,60)'
+  light_color: 'rgb(120,120,120)'
+  white_color: 'white'
   primary-font: "'Playfair Display', serif"
   featured-font: "'Zeyada', cursive"
