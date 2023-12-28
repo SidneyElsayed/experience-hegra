@@ -1,27 +1,58 @@
 ---
 layout: default
 title: Hegra Gallery
+gallery:
+ - column-size: col-6
+   aspect-ratio: square
+   background-image: /images/experience-hegra-6.jpg
+ - column-size: col-6
+   aspect-ratio: square
+   background-image: /images/experience-hegra-2.jpg
+ - column-size: col-12
+   aspect-ratio: landscape
+   background-image: /images/experience-hegra-21.jpg
+ - column-size: col-4
+   aspect-ratio: portrait
+   background-image: /images/experience-hegra-22.jpg
+ - column-size: col-4
+   aspect-ratio: portrait
+   background-image: /images/experience-hegra-10.jpg
+ - column-size: col-4
+   aspect-ratio: portrait
+   background-image: /images/experience-hegra-26.jpg
 ---
 
-<section>
-    <div class="grid gallery">
-        <div class="col-6">
-          <div class="bg-image-6 square"></div>
-        </div>
-        <div class="col-6">
-          <div class="bg-image bg-image-2 square"></div>
-        </div>
-        <div class="col-12">
-          <div class="bg-image bg-image-21 bg-pos-b landscape"></div>
-        </div>
-        <div class="col-4">
-          <div class="bg-image bg-image-22 portrait"></div>
-        </div>
-        <div class="col-4">
-          <div class="bg-image bg-image-10 portrait"></div>
-        </div>
-        <div class="col-4">
-          <div class="bg-image bg-image-26 bg-pos-t portrait"></div>
+<section class="padded">
+  <div class="grid gallery">
+
+    {% for item in page.gallery %}
+      <div class="{{item.column-size}}">
+        <div class="bg-image {{item.aspect-ratio}}" 
+             style="background-image: url('{{item.background-image}}');">
         </div>
       </div>
+    {% endfor %}
+
+  </div>
 </section>
+
+<!-- <div class="grid gallery">
+  <div class="col-6">
+    <div class="bg-image-6 square"></div>
+  </div>
+  <div class="col-6">
+    <div class="bg-image bg-image-2 square"></div>
+  </div>
+  <div class="col-12">
+    <div class="bg-image bg-image-21 bg-pos-b landscape"></div>
+  </div>
+  <div class="col-4">
+    <div class="bg-image bg-image-22 portrait"></div>
+  </div>
+  <div class="col-4">
+    <div class="bg-image bg-image-10 portrait"></div>
+  </div>
+  <div class="col-4">
+    <div class="bg-image bg-image-26 bg-pos-t portrait"></div>
+  </div>
+</div> -->
