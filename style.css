@@ -178,6 +178,22 @@ header nav a {
 }
 
 /* Button Styles */
+.hamburger-button {
+    cursor: pointer;
+    padding: 0.5rem;
+    font-size: 2.5rem;
+    margin-top: -1.2rem;
+    line-height: 0.8rem;
+    display: inline-block;
+    position: fixed;
+    right: 1rem;
+    top: 2.5rem;
+    z-index: 2;
+  }  
+
+  .hamburger-button.active {
+    color: rgb(120,120,120);
+  }
 
 .article-button {
     cursor: pointer;
@@ -189,6 +205,22 @@ header nav a {
 .article-button:hover {
     color: rgb(120,120,120);
 }
+
+/* Mobile Menu Styles */
+.mobile-menu {
+    display: none;
+    background-color: rgb(60,60,60);
+    padding: 5%;
+   
+  }
+  
+  .mobile-menu a {
+    text-decoration: none;
+    color: white;
+    padding: 5vh 5%;
+    display: block;
+  }
+  
 
 /* Header Responsive Text Banner Styles */
 .banner {
@@ -321,6 +353,10 @@ footer p {
 @media (max-width: 48em) {
     .mob-hide    {display: none; }
     .mob-show    {display: block;}
+
+    .logo {
+        text-align: left;
+    }
     }
    
 /* General Responsive CSS Styles */ 

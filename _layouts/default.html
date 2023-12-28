@@ -31,20 +31,30 @@
 
 <body>
     <header class="grid-middle center"> 
-        <nav class="col-3 text-right"> 
-           <a href="/index.html"> Home </a>
-           <a href="/booking.html"> Booking </a>
+        <nav class="col-3 text-right mob-hide"> 
+          <a href="/index.html"> Home </a>
+          <a href="/booking.html"> Booking </a>
         </nav>
-        <div class="col-6 text-center"> 
+        <div class="col-6_sm-11 text-center"> 
           <a href="/index.html"> 
             <h2 class="logo">Experience<span class="featured-text"> Hegra</span></h2>
           </a>
         </div>
-        <nav class="col-3 text-left"> 
-           <a href="/articles.html"> Articles </a>
-           <a href="/gallery.html"> Gallery </a>
+        <nav class="col-3 text-left mob-hide"> 
+          <a href="/articles.html"> Articles </a>
+          <a href="/gallery.html"> Gallery </a>
         </nav>
       </header>
+
+      <div class="hamburger-button mob-show"> &#9776; </div>
+      <div class="mobile-menu">
+        <nav>
+          <a href="/index.html"> Home </a>
+          <a href="/booking.html"> Booking </a>
+          <a href="/articles.html"> Articles </a>
+          <a href="/gallery.html"> Gallery </a>
+        </nav>
+      </div>
 
     {{content}}
 
