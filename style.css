@@ -416,6 +416,7 @@ footer p {
 }
 #cookie-notice .button-subtle {
   opacity: 0.8;
+  color: var(--light);
 }
 #close-cookie-banner {
   padding: 1rem;
