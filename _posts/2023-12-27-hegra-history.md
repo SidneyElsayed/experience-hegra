@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The History of Hegra
+featured_image: /images/experience-hegra-12.jpg
 categories: [history, travel]
 ---
 

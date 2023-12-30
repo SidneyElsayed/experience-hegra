@@ -26,13 +26,7 @@ cards:
    price: SAR 150
    subtitle: Limited-time immersive experience
    photo_image: bg-image-16
-articles:
- - title-left: The History of Hegra
-   description-left: Evidence of human presence at Hegra dates back to beyond the 1st millennium BCE and was the location of the Nabataean city from the end of the 1st millennium BCE into the 1st millennium CE. Inscriptions detailing who was buried within remain above some of these breathtaking burial chambers to this day. These tombs were dedicated to healers, military figures, local leaders and others.
-   photo-left: bg-image-11
-   title-right: A Sister City to Petra
-   description-right: Just like the grand city of Petra, the civilization's expert craftsmanship can be seen throughout Hegra, including wells and stone-lined water channels. Roman influence is also present in the form of defensive walls, gates and towers that once encircled the city.
-   photo-right: bg-image-12
+
 ---
 <section class="grid">
     <div class="col-12 bg-image bg-image-26 tall-70">
@@ -76,12 +70,17 @@ articles:
   <h2 class="editable">Explore featured articles about <span class="featured-text big-text">Hegra</span></h2>
 </section>
 
-<section class="tall-20">
+<section class="grid padded">
 
   {% for post in site.posts %}
 
-  <a href="{{post.url}}" class="article-button"> {{post.title}} </a>
-
+    <div class="col-4_xs-12 padded-1">
+      <div class="bg-image portrait" style="background-image: url('{{post.featured_image}}')"></div>
+      <h3 class="margin-tb"> {{post.title}} </h3>
+      <p> {{post.description}} </p>
+      <a href="{{post.url}}" class="article-button"> Find out more &nbsp; &#10141; </a>
+    </div>
+    
   {% endfor %}
 
 </section>

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: A Sister City to Petra
-categories: [history, jordan]
+featured_image: /images/experience-hegra-2.jpg
+categories: [history, Petra]
 ---
 
 ## A Sister City to Petra

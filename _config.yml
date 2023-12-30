@@ -18,4 +18,4 @@ _select_data:
 collections:
   posts:
     output: true
-    permalink: /articles/:slug
+    permalink: /posts/:year/:slug
