@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Art of Architechture at Hegra
+title-long: 
 featured_image: /images/experience-hegra-9.jpg
 categories:
   - history

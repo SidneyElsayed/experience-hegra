@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A Sister City to Petra
+title-long: 
 featured_image: /images/experience-hegra-24.jpg
 categories:
   - history
