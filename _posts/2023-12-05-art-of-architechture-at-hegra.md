@@ -4,7 +4,7 @@ title: Art of Architechture at Hegra
 title-long: >-
   Carving Legacies in Stone | Unveiling the Art of Nabataean Funeral Facades
   (part 1)
-featured_image: /images/experience-hegra-2.jpg
+featured_image: /images/experience-hegra-12.jpg
 categories:
   - history
   - architechture
