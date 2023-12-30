@@ -1,38 +1,30 @@
 ---
 layout: post
-title: The Art of Architechture at Hegra
-title-long: 
-featured_image: /images/experience-hegra-9.jpg
+title: The Art of Architecture at Hegra (part 2)
+title-long: 'Carving Legacies in Stone: Unveiling the Art of Nabataean Funeral Facades'
+featured_image: /images/experience-hegra-5.jpg
 categories:
   - history
   - architechture
 ---
-# **The Historical Tapestry of Hegra: Woven Through Millennia:**
+#### Part 2 in a series, check out [part 1 here](/posts/art-of-architechture-at-hegra).
 
-At the crossroads of time, Hegra's history unfolds, revealing a narrative that spans beyond the 1st millennium BCE. As evidence of human presence predates recorded history, this ancient city in Saudi Arabia becomes a testament to the endurance of the Nabataean civilization.
+### **Basic Carving**
 
-**Nabataean Abode**
+Chisels and hammers met rock as artisans embarked on the fundamental stage of carving. Columns took shape, doorways emerged, and the essence of Nabataean funeral facades materialized before their eyes. The tactile nature of this process connected them to the hands of ancient artisans, whose craft shaped the very soul of Hegra.
 
-Hegra became the quintessential Nabataean city from the end of the 1st millennium BCE into the 1st millennium CE. This period marked the zenith of Nabataean influence, and Hegra mirrored the architectural brilliance and cultural sophistication that characterized their civilization.
+### **Detailing and Symbolism**
 
-**Inscriptions etched in Stone**
+Now came the time for intricacy. Symbolic representations, religious motifs, and scenes depicting the departed graced the facade. Each detail told a story, a glimpse into the beliefs and narratives that defined Nabataean culture. The carved tributes became vessels of remembrance, preserving the essence of lives long past.
 
-Embedded within the sandstone cliffs of Hegra are inscriptions that serve as a silent testimony to the lives once lived within. These inscriptions, adorned above the entrances of breathtaking burial chambers, offer glimpses into the identities of those interred. The city's tombs were not mere resting places; they were hallowed grounds dedicated to healers, military figures, local leaders, and other revered individuals.
+### **Finishing Touches**
 
-> **The city's tombs were not mere resting places; they were hallowed grounds dedicated to healers, military figures, local leaders, and other revered individuals.**
+Smooth surfaces beckoned their touch as artisans refined the carved elements. The weathering effects they applied were deliberate, echoing the patina of time that graced authentic Nabataean facades. The creations, though new, bore the weathered wisdom of centuries past, a testament to the enduring craftsmanship of their makers.
 
-**Diverse Remembrances**
+### **Preservation Measures**
 
-The burial chambers of Hegra unveil a diverse tapestry of society, reflecting the varied roles and contributions of its inhabitants. Each inscription weaves a story of a life lived, immortalizing the legacies of healers who mended the ailments of their time, military figures who defended the city's boundaries, and local leaders who guided Hegra through the currents of history.
+To safeguard their tributes against the ravages of time and weather, carved into the topmost shelf of the tomb would ssit a water channel. Rainfall would drain down the sides, leaving the facade to endue the test of time. Preservation became a pledge to the future, ensuring that the echoes of the past resonated through time.
 
-**An Archaeological Treasure Trove**
+### **Reflection on the Artistic Process**
 
-Today, as we explore the remnants of Hegra, the archaeological marvels extend beyond the tombs. The cityscape, adorned with temples, dwellings, and civic structures, paints a vivid picture of the daily lives of its ancient residents. From the grandeur of public spaces to the intricate details of private abodes, Hegra's ruins stand as a testament to the advanced urban planning of the Nabataeans.
-
-> **Hegra emerges as a living testament to the resilience, creativity, and diversity of the Nabataean people — a civilization that carved its mark not just in stone but in the chronicles of human history.**
-
-**Preserving the Past for the Future**
-
-Hegra's inclusion in UNESCO's World Heritage List underscores its significance as a site of historical and cultural importance. The ongoing efforts to conserve and study this ancient city ensure that its story continues to captivate and enlighten future generations.
-
-As we navigate the corridors of Hegra's history, the inscriptions above the burial chambers beckon us to connect with relics of the past. Beyond the stone facades and sandy landscapes, Hegra emerges as a living testament to the resilience, creativity, and diversity of the Nabataean people — a civilization that carved its mark not just in stone but in the chronicles of human history.
+The challenges faced by ancient craftsmen became apparent, and the enduring legacy of their craftsmanship resonated through the ages. Nabataean funeral facades, once silent witnesses to the passage of time, now echo with the voices of those who dared to carve their legacies in stone. These carved facades stand not merely as monuments but as tributes to a civilization that carved its identity into the very soul of the earth, a legacy etched in stone for eternity.
