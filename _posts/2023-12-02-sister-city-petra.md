@@ -7,8 +7,6 @@ categories:
   - history
   - Petra
 ---
-# **A Sister City to Petra \| Exploring the Enchanting Heritage of Hegra**
-
 Nestled amidst the timeless sands of the Arabian Peninsula, the ancient city of Hegra stands as a testament to the marvels of the Nabataean civilization. While Petra, in Jordan, may command the spotlight, Hegra, its sister city, boasts an equally enchanting tale of architectural prowess and cultural richness.
 
 **Rediscovering the Nabataeans:**
