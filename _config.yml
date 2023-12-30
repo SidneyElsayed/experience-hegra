@@ -14,3 +14,8 @@ _select_data:
     col-6_sm-12: one half (mobile responsive)
     col-4_sm-12: one third (mobile responsive)
     col-3_sm-12: one quarter (mobile responsive)
+
+collections:
+  posts:
+    output: true
+    permalink: /articles/:slug
