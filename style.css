@@ -88,6 +88,9 @@ img {
 .margin-tb { margin-top: 5%; margin-bottom: 5%; }
 .margin-lr { margin-left: 5%; margin-right: 5%; }
 
+.margin-tb-lg { margin-top: 10%; margin-bottom: 10%; }
+.margin-lr-lg { margin-left: 10%; margin-right: 10%; }
+
 .tall-20  { min-height: 20vh;  }
 .tall-30  { min-height: 30vh;  }
 .tall-40  { min-height: 40vh;  }
@@ -512,6 +515,47 @@ footer p {
 
     .logo {
         text-align: left;
+    }
+
+    .mob-margin-05{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    /* Post Page Styles */
+    .mob-post h1 {
+        padding-bottom: 1.5rem;
+        font-size: 1.7rem;
+    }
+
+    .mob-post h2 {
+        margin-bottom: 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    .mob-post h3 {
+        margin-top: 0.75rem;
+        margin-bottom: 0.75rem;
+        font-size: 1.2rem;
+    }
+
+    .mob-post p {
+        margin-bottom: 1.7rem;
+    }
+
+    .mob-post blockquote {
+        margin-left: 2rem;
+        margin-right: 1rem;
+        margin-bottom: 0;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .mob-post blockquote p {
+        margin-bottom: 0;
+        padding: 1rem;
+        font-size: 1.5rem;
+        border-left: 3px solid var(--dark);
     }
     }
    

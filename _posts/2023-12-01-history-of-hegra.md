@@ -1,12 +1,12 @@
 ---
 layout: post
 title: History of Hegra
+title-long: The Historical Tapestry of Hegra | Woven Through Millennia
 featured_image: /images/experience-hegra-2.jpg
 categories:
   - history
   - travel
 ---
-# **The Historical Tapestry of Hegra: Woven Through Millennia**
 
 At the crossroads of time, Hegra's history unfolds, revealing a narrative that spans beyond the 1st millennium BCE. As evidence of human presence predates recorded history, this ancient city in Saudi Arabia becomes a testament to the endurance of the Nabataean civilization.
 
