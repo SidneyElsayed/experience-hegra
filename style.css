@@ -115,6 +115,15 @@ p {
     letter-spacing: 0.05em;
     }
 
+a {
+    text-decoration: none;
+    color: var(--dark);
+    }
+      
+a:hover {
+    color: var(--light);
+    }
+
 .featured-text { font-family: var(--featured-font);}
 .text-lato { font-family: 'Lato', sans-serif;}
 
