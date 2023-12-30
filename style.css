@@ -176,18 +176,32 @@ header nav a {
 
 .post h2 {
     margin-bottom: 0.5rem;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
+}
+
+.post h3 {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.2rem;
 }
 
 .post p {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.7rem;
 }
 
-.post blockquote{
+.post blockquote {
     margin-left: 2rem;
-    padding: 1.5rem;
-    border-left: 3px solid var(--dark);
+    margin-right: 1rem;
+    margin-bottom: 0;
+    padding: 1rem;
     font-size: 1.5rem;
+}
+
+.post blockquote p {
+    margin-bottom: 0;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-left: 3px solid var(--dark);
 }
 
 /* Experience Card Styles */
