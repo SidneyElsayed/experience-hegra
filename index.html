@@ -35,27 +35,27 @@ cards:
 </section>
 
 <!-- Booking Options Cards -->
-<section class="padded mob-padded padded-r-0">
-    <h2> Booking Options </h2>
-    <div class="grid horizontal-scroll">
-    
-        {% for item in page.cards %}
-        <!--   Card 1     -->
-        <div class="col-3_xs-11 card"> 
-          <div>
-            <div class="square bg-image text-right {{item.photo_image}}">
-              <!-- image -->
-            </div>
-            <div class="padded">
-              <h4 class="price margin-b-03"> {{item.price}} </h4>
-              <h3 class="margin-b-03"> {{item.title}} </h3>
-              <h4 class="subtitle"> {{item.subtitle}} </h4>
-            </div>
+<section class="padded mob-padded-0 padded-r-0">
+  <h2 class="editable"> Booking Options </h2>
+  <div class="grid horizontal-scroll">
+  
+      {% for item in page.cards %}
+      <!--   Card 1     -->
+      <div class="col-3_xs-11 card"> 
+        <div>
+          <div class="square bg-image text-right {{item.photo_image}}">
+            <!-- image -->
+          </div>
+          <div class="padded">
+            <h4 class="price featured-text margin-b-03"> {{item.price}} </h4>
+            <h3 class="margin-b-03"> {{item.title}} </h3>
+            <h4 class="subtitle"> {{item.subtitle}} </h4>
           </div>
         </div>
-        {% endfor %}
-    </div>
-  </section>
+      </div>
+      {% endfor %}
+  </div>
+</section>
 
 <!-- UNESCO Banner Section -->
 <section class="padded bg-image white-text bg-image-24 tall-50">
