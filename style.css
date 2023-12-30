@@ -133,7 +133,7 @@ a:hover {
 .white-text { color: var(--white);}
 
 .medium-text { font-size: 2rem; }
-.big-text    { font-size: 3rem;    }
+.big-text    { font-size: 2.5rem;    }
     
 h2:last-child, 
 h3:last-child, 
@@ -190,6 +190,10 @@ header nav a {
 
 .post p {
     margin-bottom: 1.7rem;
+}
+
+.post p a {
+    border-bottom: 1px solid var(--dark);
 }
 
 .post blockquote {
@@ -252,7 +256,7 @@ header nav a {
     z-index: 2;
   }  
 
-  .hamburger-button.active {
+.hamburger-button.active {
     color: var(--light);
   }
 
@@ -326,7 +330,7 @@ header nav a {
 }
 
 .responsive-banner h2 {
-    font-size: 10vw;
+    font-size: 7vw;
 }
 
 .unesco-banner {
