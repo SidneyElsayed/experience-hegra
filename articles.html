@@ -46,18 +46,18 @@ articles:
     {% endfor %}
 </section>
 
-<section class="grid padded">
+<section class="padded mob-padded padded-r-0">
     <h2 class="col-12">Other articles</h2>
-
-    {% for post in site.posts limit:3 offset:1 %}
-  
-    <div class="col-4_xs-12 padded-1">
-      <div class="bg-image square" style="background-image: url('{{post.featured_image}}')"></div>
-      <h3 class="margin-tb"> {{post.title}} </h3>
-      <p> {{post.description}} </p>
-      <a href="{{post.url}}" class="article-button"> Find out more &nbsp; &#10141; </a>
-    </div>
+    <div class="grid horizontal-scroll">
+    {% for post in site.posts %}
     
-   {% endfor %}
-  
+        <div class="col-4_xs-11 padded-1">
+        <div class="bg-image square" style="background-image: url('{{post.featured_image}}')"></div>
+        <h3 class="margin-tb"> {{post.title}} </h3>
+        <p> {{post.description}} </p>
+        <a href="{{post.url}}" class="article-button"> Find out more &nbsp; &#10141; </a>
+        </div>
+        
+    {% endfor %}
+    </div>
   </section>
