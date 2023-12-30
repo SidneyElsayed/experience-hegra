@@ -72,7 +72,7 @@ cards:
 
 <section class="grid padded">
 
-  {% for post in site.posts %}
+  {% for post in site.posts limit:3 offset:1 %}
 
     <div class="col-4_xs-12 padded-1">
       <div class="bg-image portrait" style="background-image: url('{{post.featured_image}}')"></div>
