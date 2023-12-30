@@ -18,7 +18,7 @@ Hegra became the quintessential Nabataean city from the end of the 1st millenniu
 
 Embedded within the sandstone cliffs of Hegra are inscriptions that serve as a silent testimony to the lives once lived within. These inscriptions, adorned above the entrances of breathtaking burial chambers, offer glimpses into the identities of those interred. The city's tombs were not mere resting places; they were hallowed grounds dedicated to healers, military figures, local leaders, and other revered individuals.
 
-> **The city's tombs were not mere resting places; they were hallowed grounds dedicated to healers, military figures, local leaders, and other revered individuals.**
+> ***The city's tombs were not mere resting places; they were hallowed grounds dedicated to healers, military figures, local leaders, and other revered individuals.***
 
 ### **Diverse Remembrances**
 
@@ -28,7 +28,7 @@ The burial chambers of Hegra unveil a diverse tapestry of society, reflecting th
 
 Today, as we explore the remnants of Hegra, the archaeological marvels extend beyond the tombs. The cityscape, adorned with temples, dwellings, and civic structures, paints a vivid picture of the daily lives of its ancient residents. From the grandeur of public spaces to the intricate details of private abodes, Hegra's ruins stand as a testament to the advanced urban planning of the Nabataeans.
 
-> **Hegra emerges as a living testament to the resilience, creativity, and diversity of the Nabataean people — a civilization that carved its mark not just in stone but in the chronicles of human history.**
+> ***Hegra emerges as a living testament to the resilience, creativity, and diversity of the Nabataean people — a civilization that carved its mark not just in stone but in the chronicles of human history.***
 
 ### **Preserving the Past for the Future**
 
