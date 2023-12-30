@@ -168,6 +168,28 @@ header nav a {
   margin: 0.3rem;
 }
 
+/* Post Page Styles */
+.post h1 {
+    padding-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
+.post h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.post p {
+    margin-bottom: 1.5rem;
+}
+
+.post blockquote{
+    margin-left: 2rem;
+    padding: 1.5rem;
+    border-left: 3px solid var(--dark);
+    font-size: 1.5rem;
+}
+
 /* Experience Card Styles */
   
 .card {
