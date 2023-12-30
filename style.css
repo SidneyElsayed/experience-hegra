@@ -171,7 +171,7 @@ header nav a {
 /* Experience Card Styles */
   
 .card {
-    margin: 0.5rem;
+    border: 0.5rem solid white;
   }
   
 .card:hover {
@@ -221,11 +221,36 @@ header nav a {
     cursor: pointer;
     text-decoration: none;
     color: inherit;
-    display: block;
+    display: flex;
+    align-items: left;
 }
 
 .article-button:hover {
     color: var(--light);
+}
+
+.leading-page-button {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    display: block; 
+}
+
+.cta-button {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--dark);
+    border: 1px solid var(--dark);
+    padding: 0.5rem 5%;
+    display: inline-block;
+}
+
+.cta-button:hover {
+    color: var(--dark);
+    background-color: var(--light);
+    border: 1px solid var(--light);
+    transition: all 0.2s;
 }
 
 /* Mobile Menu Styles */

@@ -7,26 +7,33 @@ cards:
    price: SAR 95
    subtitle: Daytime tour by coach bus
    photo_image: bg-image-22
+   url: https://tickets.experiencealula.com/en/experiences/hegra-day-tour?gclid=EAIaIQobChMI1Ozb4aexgwMVboCDBx1EiAohEAAYASAAEgIP-fD_BwE
  - title: Hegra Vintage Land Rover
    price: SAR 1000 per vehicle
    subtitle: Daytime tour with private driver
    photo_image: bg-image-10
+   url: https://tickets.experiencealula.com/en/experiences/hegra-vintage-landrover-tour?gclid=EAIaIQobChMI1Ozb4aexgwMVboCDBx1EiAohEAAYASAAEgIP-fD_BwE
  - title: The Living Museum Augmented Reality
    price: SAR 1200 per vehicle
    subtitle: Enhanced tour with AR glasses
    photo_image: bg-image-12
+   url: https://tickets.experiencealula.com/en/experiences/hegra-vintage-landrover-tour?gclid=EAIaIQobChMI1Ozb4aexgwMVboCDBx1EiAohEAAYASAAEgIP-fD_BwE
  - title: Hegra Wildlife & Nature Tour
    price: SAR 150
    subtitle: Safari through a different side of Hegra
    photo_image: bg-image-13
+   url: https://tickets.experiencealula.com/en/experiences/Hegra-Wildlife-Nature-Tour?gclid=EAIaIQobChMI1Ozb4aexgwMVboCDBx1EiAohEAAYASAAEgIP-fD_BwE
  - title: Hegra by Horse Carriage
    price: SAR 135
    subtitle: Sunrise or sunset tour
    photo_image: bg-image-14
+   url: https://tickets.experiencealula.com/en/experiences/hegra-by-horse-carriage?groupAlias=heritage-experiences&gclid=EAIaIQobChMI1Ozb4aexgwMVboCDBx1EiAohEAAYASAAEgIP-fD_BwE
  - title: Hegra After Dark
    price: SAR 150
    subtitle: Limited-time immersive experience
    photo_image: bg-image-16
+   url: https://tickets.experiencealula.com/en/experiences/hegra-after-dark?gclid=EAIaIQobChMI1Ozb4aexgwMVboCDBx1EiAohEAAYASAAEgIP-fD_BwE
+
 ---
 <!-- Header Banner -->
 <section class="padded bg-image responsive-banner" style="background-image: url('{{page.featured_image}}')">
@@ -40,27 +47,28 @@ cards:
 </section>
 
 <!-- Booking Options Cards -->
-<section class="padded mob-padded-0 padded-r-0">
-    <h2 class="editable"> Booking Options </h2>
-    <div class="grid horizontal-scroll">
-    
-        {% for item in page.cards %}
-        <!--   Card 1     -->
-        <div class="col-3_xs-11 card"> 
-          <div>
-            <div class="square bg-image text-right {{item.photo_image}}">
-              <!-- image -->
-            </div>
-            <div class="padded">
-              <h4 class="price featured-text margin-b-03"> {{item.price}} </h4>
-              <h3 class="margin-b-03"> {{item.title}} </h3>
-              <h4 class="subtitle"> {{item.subtitle}} </h4>
-            </div>
+<section class="padded">
+  <h2 class="editable"> Booking Options </h2>
+  <div class="grid">
+  
+      {% for item in page.cards %}
+      <!--   Card 1     -->
+      <div class="col-4_sm-12-spaceBetween card margin-b-2"> 
+        <div>
+          <div class="square bg-image text-right {{item.photo_image}}">
+            <!-- image -->
+          </div>
+          <div class="padded">
+            <h4 class="price featured-text margin-b-03"> {{item.price}} </h4>
+            <h3 class="margin-b-03"> {{item.title}} </h3>
+            <h4 class="subtitle"> {{item.subtitle}} </h4>
+            <a href="{{item.url}}" class="cta-button">Book now</a>
           </div>
         </div>
-        {% endfor %}
-    </div>
-  </section>
+      </div>
+      {% endfor %}
+  </div>
+</section>
 
 <!-- Banner Section -->
 <section class="grid text-center padded bg-image bg-image-13 tall-40">
