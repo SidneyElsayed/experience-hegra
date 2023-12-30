@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Art of Architechture at Hegra
+title: The Art of Architecture at Hegra
 title-long: >-
   Carving Legacies in Stone | Unveiling the Art of Nabataean Funeral Facades
   (part 1)
