@@ -10,7 +10,7 @@ categories:
 
 At the crossroads of time, Hegra's history unfolds, revealing a narrative that spans beyond the 1st millennium BCE. As evidence of human presence predates recorded history, this ancient city in Saudi Arabia becomes a testament to the endurance of the Nabataean civilization.
 
-## **Nabataean Abode**
+### **Nabataean Abode**
 
 Hegra became the quintessential Nabataean city from the end of the 1st millennium BCE into the 1st millennium CE. This period marked the zenith of Nabataean influence, and Hegra mirrored the architectural brilliance and cultural sophistication that characterized their civilization.
 
@@ -29,7 +29,6 @@ The burial chambers of Hegra unveil a diverse tapestry of society, reflecting th
 Today, as we explore the remnants of Hegra, the archaeological marvels extend beyond the tombs. The cityscape, adorned with temples, dwellings, and civic structures, paints a vivid picture of the daily lives of its ancient residents. From the grandeur of public spaces to the intricate details of private abodes, Hegra's ruins stand as a testament to the advanced urban planning of the Nabataeans.
 
 > **Hegra emerges as a living testament to the resilience, creativity, and diversity of the Nabataean people — a civilization that carved its mark not just in stone but in the chronicles of human history.**
-
 
 ## **Preserving the Past for the Future**
 
