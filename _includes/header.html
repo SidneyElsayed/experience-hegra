@@ -13,11 +13,15 @@
         <div class="dropdown">
           <span class="dropdown-title"> Articles </span>
           <div class="dropdown-content">
+            {% for post in site.posts %}
+  
             <a href="/_posts/2023-12-01-history-of-hegra.md"> History of Hegra </a>
-            <a href="/_posts/2023-12-02-sister-city-petra.md"> Sister City to Petra </a>
-            <a href="/_posts/2023-12-03-symbolic-language-hegra.md"> Symbolic Language at Hegra </a>
-            <a href="/_posts/2023-12-04-art-of-architechture-hegra.md"> Art of Architecture (part 1) </a>
-            <a href="/_posts/2023-12-05-art-of-architechture-at-hegra.md"> Art of Architecture (part 2) </a>
+            <a href="{{post.url}}"> Sister City to Petra </a>
+            <a href="{{post.url}}"> Symbolic Language at Hegra </a>
+            <a href="{{post.url}}"> Art of Architecture (part 1) </a>
+            <a href="{{post.url}}"> Art of Architecture (part 2) </a>
+              
+            {% endfor %}
           </div>
         </div>
         <a href="/gallery.html"> Gallery </a>

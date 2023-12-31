@@ -7,7 +7,7 @@ categories:
   - history
   - architechture
 ---
-#### Part 2 in a series, check out [part 1 here](/posts/art-of-architechture-at-hegra).
+#### Part 2 in a series, check out [part 1 here](/posts/art-of-architechture-at-hegra.md).
 
 ### **Basic Carving**
 
