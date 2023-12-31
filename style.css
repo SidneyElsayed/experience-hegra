@@ -339,8 +339,12 @@ header nav a {
   .mobile-menu a {
     text-decoration: none;
     color: var(--white);
-    padding: 5vh 5%;
+    padding: 3vh 1rem;
     display: block;
+  }
+
+  .mob-dropdown a {
+    padding: 2vh 1rem;
   }
   
 
