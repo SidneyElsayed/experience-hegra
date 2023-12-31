@@ -189,7 +189,7 @@ header nav a {
     background-color: white;
     z-index: 2;
     text-align: left;
-    min-width: 10rem;
+    min-width: 15rem;
    }
    .dropdown:hover .dropdown-content {
     display: block;
