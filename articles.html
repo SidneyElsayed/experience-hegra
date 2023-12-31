@@ -17,7 +17,7 @@ articles:
 </section>
 
 <!-- Article Overview Section -->
-<section class="grid-middle padded tall-20">
+<section class="grid-middle padded padded-b-0 tall-20">
     <h2 class="editable">Explore featured articles about Hegra</h2>
     <p class="editable">The oasis city of AlUla has long been a haven for humanity; from weary travelers to great civilizations, history is etched into its mountains. The lush valley and wind-swept landscapes became a refuge of rest for traders and pilgrims alike. Find articles below to learn more about the once-great Nabataean civilization that ruled the trading routes of the famous Incense Road.</p>
 </section>
@@ -25,28 +25,30 @@ articles:
 <!-- Articles Section -->
 <section class="grid-middle">
     {% for item in page.articles %}
-
-    <div class="col-6_sm-12 padded">
-        <h3>{{item.title-left}}</h3>
-        <p>{{item.description-left}}</p>
-        <a href="#" class="text-right article-button"> Find out more &nbsp; &#10141; </a>
+    <div class="grid padded-lg">
+        <div class="col-6_sm-12 padded">
+            <h3>{{item.title-left}}</h3>
+            <p>{{item.description-left}}</p>
+            <a href="#" class="text-right article-button"> Find out more &nbsp; &#10141; </a>
+        </div>
+        <div class="col-6_sm-12 mob-hide {{item.photo-left}} tall-60">
+            <!-- image right -->
+        </div>
     </div>
-    <div class="col-6_sm-12 mob-hide {{item.photo-left}} tall-60">
-        <!-- image right -->
+    <div class="grid padded-lg padded-t-0">
+        <div class="col-6_sm-12 bg-image {{item.photo-right}} tall-60">
+            <!-- image left -->
+        </div>
+        <div class="col-6_sm-12 padded mob-padded-t-lg mob-padded-b-0">
+            <h3>{{item.title-right}}</h3>
+            <p>{{item.description-right}}</p>
+            <a href="#" class="text-right article-button"> Find out more &nbsp; &#10141; </a>
+        </div>
     </div>
-    <div class="col-6_sm-12 bg-image {{item.photo-right}} tall-60">
-        <!-- image left -->
-    </div>
-    <div class="col-6_sm-12 padded">
-        <h3>{{item.title-right}}</h3>
-        <p>{{item.description-right}}</p>
-        <a href="#" class="text-right article-button"> Find out more &nbsp; &#10141; </a>
-    </div>
-
     {% endfor %}
 </section>
 
-<section class="padded mob-padded padded-r-0">
+<section class="padded padded-t-0 mob-padded padded-r-0">
     <h2 class="col-12">Other articles</h2>
     <div class="grid horizontal-scroll">
     {% for post in site.posts %}
