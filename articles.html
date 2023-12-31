@@ -26,7 +26,7 @@ articles:
 <section class="grid-middle">
     {% for item in page.articles %}
     <div class="grid padded-lg">
-        <div class="col-6_sm-12 padded">
+        <div class="col-6_sm-12-middle padded padded-l-0">
             <h3>{{item.title-left}}</h3>
             <p>{{item.description-left}}</p>
             <a href="/articles/history-of-hegra.html" class="text-right article-button"> Find out more &nbsp; &#10141; </a>
@@ -39,7 +39,7 @@ articles:
         <div class="col-6_sm-12 bg-image {{item.photo-right}} tall-60">
             <!-- image left -->
         </div>
-        <div class="col-6_sm-12 padded mob-padded-t-lg mob-padded-b-0">
+        <div class="col-6_sm-12-middle padded padded-r-0 mob-padded-t-lg mob-padded-b-0">
             <h3>{{item.title-right}}</h3>
             <p>{{item.description-right}}</p>
             <a href="/articles/sister-city-petra.html" class="text-right article-button"> Find out more &nbsp; &#10141; </a>
