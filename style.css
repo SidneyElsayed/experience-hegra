@@ -305,11 +305,12 @@ header nav a {
     position: fixed;
     right: 1rem;
     top: 2.5rem;
-    z-index: 2;
+    z-index: 3;
   }  
 
 .hamburger-button.active {
     color: var(--light);
+    z-index: 3;
   }
 
 .article-button {
@@ -354,6 +355,7 @@ header nav a {
     background-color: var(--dark);
     padding: 5%;
     position: fixed;
+    z-index: 3;
     top: 0;
     bottom: 0;
     right: 0;
