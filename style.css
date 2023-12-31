@@ -238,6 +238,26 @@ header nav a {
     border-left: 3px solid var(--dark);
 }
 
+/* Overlay Styles */
+
+.bg-overlay {
+    position: relative;
+  }
+  
+  .bg-overlay::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+  .bg-overlay > * {
+    position: relative;
+  }
+
 /* Experience Card Styles */
   
 .card-index {
@@ -367,10 +387,6 @@ header nav a {
 
 .responsive-banner h2 {
     font-size: 7vw;
-}
-
-.unesco-banner {
-    margin-top: -1rem;
 }
 
 /* Footer Styles */
