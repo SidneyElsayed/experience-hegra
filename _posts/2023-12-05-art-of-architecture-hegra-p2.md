@@ -5,7 +5,17 @@ title-long: 'Carving Legacies in Stone: Unveiling the Art of Nabataean Funeral F
 featured_image: /images/experience-hegra-5.jpg
 categories:
   - history
-  - architechture
+  - architecture
+seo:
+  title: The Art of Architecture at Hegra (part 2)
+  description: >-
+    Read about the ancient art of Nabataean architecture at Saudi Arabia's first UNESCO World Heritage Site, Hegra, from basic carving to preservation measures. 
+  social_image:
+  twitter_card: summary
+  twitter_description: >-
+    Read about the ancient art of Nabataean architecture at Saudi Arabia's first UNESCO World Heritage Site, Hegra, from basic carving to preservation measures. 
+  keywords: 'Hegra architecture, Nabataean architecture'
+  hide-from-google: false  
 ---
 #### Part 2 in a series, check out [part 1 here](/posts/art-of-architechture-at-hegra.md).
 
