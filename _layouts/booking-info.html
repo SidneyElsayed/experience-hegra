@@ -10,13 +10,19 @@ layout: default
     <p>{{page.overview}}</p>
 </section>
 
-<section>
+<section class="padded padded-t-0">
     <div>
-        <i class="fas fa-cloud icon icon-sm"></i>
-        <p>{{page.duration}}</p>
-        <i class="fas fa-cloud icon icon-sm"></i>
-        <p>Mobile ticket</p>
-        <i class="fas fa-cloud icon icon-sm"></i>
-        <p>Offered in: English, Arabic</p>
+        <div style="display:inline-block">
+            <i class="fa-solid fa-clock info-icons"></i>
+            <p style="display:inline-block">{{page.duration}}</p>
+        </div>
+        <div style="display:inline-block">
+            <i class="fa-solid fa-ticket info-icons"></i>
+            <p style="display:inline-block">Mobile ticket</p>
+        </div>
+        <div style="display:inline-block">
+            <i class="fa-solid fa-comment info-icons"></i>
+            <p style="display:inline-block">English & Arabic</p>
+        </div>
     </div>
 </section>
