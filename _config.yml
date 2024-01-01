@@ -20,6 +20,10 @@ collections:
   posts:
     output: true
     permalink: /articles/:slug
+  booking:
+    output: true
+    permalink: /booking/:slug
+
 
 _comments:
   title: Max 70 characters
