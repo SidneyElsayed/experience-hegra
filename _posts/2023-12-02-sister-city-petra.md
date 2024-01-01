@@ -1,7 +1,8 @@
 ---
 layout: post
 title: A Sister City to Petra
-title-long: A Sister City to Petra | Exploring the Enchanting Heritage of Hegra
+title-long: >-
+  A Sister City to Petra | Exploring the Enchanting Heritage of Hegra
 featured_image: /images/experience-hegra-24.jpg
 categories:
   - history

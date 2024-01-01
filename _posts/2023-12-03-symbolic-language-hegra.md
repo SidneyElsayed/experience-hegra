@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Symbolic Language of Hegra
-title-long: The Symbolic Language of Nabataean Architecture | Carving Stories in Stone
+title-long: >-
+  The Symbolic Language of Nabataean Architecture | Carving Stories in Stone
 featured_image: /images/experience-hegra-2.jpg
 categories:
   - history
