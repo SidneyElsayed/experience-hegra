@@ -1,8 +1,7 @@
 ---
 layout: post
 title: History of Hegra
-title-long: >-
-  The Historical Tapestry of Hegra | Woven Through Millennia
+title-long: The Historical Tapestry of Hegra | Woven Through Millennia
 featured_image: /images/experience-hegra-2.jpg
 categories:
   - history
