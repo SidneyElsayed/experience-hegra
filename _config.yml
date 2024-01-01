@@ -6,6 +6,7 @@ _select_data:
     - landscape
     - landscape-wide
 
+
   column-sizes:
     col-6: one half
     col-12: full width
@@ -19,3 +20,10 @@ collections:
   posts:
     output: true
     permalink: /articles/:slug
+
+_comments:
+  title: Max 70 characters
+  description: 165 characters
+  social_image: Landscape 1200 x 627 px
+  twitter_card: summary, photo, video, product, app, gallery
+  twitter_description: 200 characters
