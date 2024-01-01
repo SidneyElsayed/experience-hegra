@@ -8,6 +8,16 @@ featured_image: /images/experience-hegra-12.jpg
 categories:
   - history
   - architechture
+seo:
+  title: The Art of Architecture at Hegra (part 2)
+  description: >-
+    Read about the ancient art of Nabataean architecture at Saudi Arabia's first UNESCO World Heritage Site, Hegra, from selecting a site to planning and design. 
+  social_image:
+  twitter_card: summary
+  twitter_description: >-
+    Read about the ancient art of Nabataean architecture at Saudi Arabia's first UNESCO World Heritage Site, Hegra, from selecting a site to planning and design. 
+  keywords: 'Hegra architecture, Nabataean architecture'
+  hide-from-google: false  
 ---
 Nestled along the Incense Road, where rocky landscapes hold the secrets of an ancient civilization, the Nabataeans left an indelible mark on history through their mastery of rock-cut architecture. Among their most iconic creations are the funeral facades that adorn the cliffs of Hegra. Discover the intricate steps of carving a Nabataean funeral facade and delve into the symbolism and artistry that define this captivating form of commemoration.
 
