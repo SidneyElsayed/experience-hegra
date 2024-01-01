@@ -7,16 +7,6 @@ featured_image: /images/experience-hegra-24.jpg
 categories:
   - history
   - Petra
-seo:
-  title: Hegra, the Sister City to Petra
-  description: >-
-    Read about the ancient Nabataean civilization that once ruled the Arabian Peninsula, from Petra in Jordan to Hegra — Saudi Arabia's first UNESCO World Heritage Site.
-  social_image:
-  twitter_card: summary
-  twitter_description: >-
-    Read about the ancient Nabataean civilization that once ruled the Arabian Peninsula, from the "Rose City" of Petra in Jordan to Hegra — Saudi Arabia's first UNESCO World Heritage Site.
-  keywords: 'Nabataean civilization, Petra's sister city'
-  hide-from-google: false  
 ---
 Nestled amidst the timeless sands of the Arabian Peninsula, the ancient city of Hegra stands as a testament to the marvels of the Nabataean civilization. While Petra, in Jordan, may command the spotlight, Hegra, its sister city, boasts an equally enchanting tale of architectural prowess and cultural richness.
 

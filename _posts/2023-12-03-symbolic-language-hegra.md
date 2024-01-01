@@ -7,16 +7,6 @@ featured_image: /images/experience-hegra-2.jpg
 categories:
   - history
   - travel
-seo:
-  title: The Symbolic Language of Hegra
-  description: >-
-    Read about the symbolism found in ancient Nabataean architecture at Saudi Arabia's first UNESCO World Heritage Site, Hegra, from floral motifs to mythological figures. 
-  social_image:
-  twitter_card: summary
-  twitter_description: >-
-    Read about the symbolism found in ancient Nabataean architecture at Saudi Arabia's first UNESCO World Heritage Site, Hegra, from floral motifs to mythological figures.
-  keywords: 'Hegra symbols, Nabataean architecture'
-  hide-from-google: false  
 ---
 In the heart of the Arabian Peninsula, the Nabataean civilization left an indelible mark through their extraordinary architectural achievements. Beyond the sheer craftsmanship, the rock-cut facades of Hegra tell stories through intricate motifs and symbols, offering a glimpse into the rich tapestry of Nabataean culture.
 

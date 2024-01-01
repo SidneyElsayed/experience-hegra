@@ -7,16 +7,6 @@ featured_image: /images/experience-hegra-2.jpg
 categories:
   - history
   - travel
-seo:
-  title: The History of Hegra
-  description: >-
-    Read about Hegra, Saudi Arabia's first UNESCO World Heritage Site, and the ancient Nabataean civilization that once ruled the Arabian Peninsula and the famed Incense Road.
-  social_image:
-  twitter_card: summary
-  twitter_description: >-
-    Read about Hegra, Saudi Arabia's first UNESCO World Heritage Site, and the ancient Nabataean civilization that once ruled the Arabian Peninsula and the famed Incense Road.
-  keywords: 'Nabataean civilization, Petra's sister city'
-  hide-from-google: false  
 ---
 
 At the crossroads of time, Hegra's history unfolds, revealing a narrative that spans beyond the 1st millennium BCE. As evidence of human presence predates recorded history, this ancient city in Saudi Arabia becomes a testament to the endurance of the Nabataean civilization.
