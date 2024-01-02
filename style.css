@@ -123,6 +123,10 @@ a {
     color: var(--dark);
     }
       
+p a {
+    border-bottom: 1px solid var(--dark);
+}
+
 a:hover {
     color: var(--light);
     }
