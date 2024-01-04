@@ -121,8 +121,8 @@ p {
 a {
     text-decoration: none;
     color: var(--dark);
-    }
-      
+}
+
 p a {
     border-bottom: 1px solid var(--dark);
 }
@@ -137,7 +137,7 @@ a:hover {
 .white-text { color: var(--white);}
 
 .medium-text { font-size: 2rem; }
-.big-text    { font-size: 2.5rem;    }
+.big-text    { font-size: 2.5rem; }
     
 h2:last-child, 
 h3:last-child, 
@@ -353,6 +353,23 @@ header nav a {
 
 .cta-button:hover {
     color: var(--dark);
+    background-color: var(--light);
+    border: 1px solid var(--light);
+    transition: all 0.2s;
+}
+
+
+.cta-button-light {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--dark);
+    border: 1px solid var(--dark);
+    padding: 0.5rem 5%;
+    display: inline-block;
+}
+
+.cta-button-light:hover {
+    color: var(--white);
     background-color: var(--light);
     border: 1px solid var(--light);
     transition: all 0.2s;
