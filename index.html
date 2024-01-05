@@ -7,7 +7,8 @@ cards:
       price: SAR 95
       subtitle: Daytime tour by coach bus
       photo_image: bg-image-22
-      page-url: https://experiencehegra.com/booking/hegra-tour.html
+      page-url: >-
+          https://experiencehegra.com/booking/hegra-tour.html
       booking-url: >-
          https://tickets.experiencealula.com/en/experiences/hegra-day-tour?gclid=EAIaIQobChMI1Ozb4aexgwMVboCDBx1EiAohEAAYASAAEgIP-fD_BwE
    -
@@ -74,19 +75,17 @@ seo:
       {% for item in page.cards %}
       <!--   Card 1     -->
       <div class="col-3_xs-11 card card-index"> 
-        <a href="{{page-url}}">
-          <div>
-            <div class="square bg-image text-right {{item.photo_image}}">
-              <!-- image -->
-            </div>
-            <div class="padded">
-              <h4 class="price featured-text margin-b-03"> {{item.price}} </h4>
-              <h3 class="margin-b-03"> {{item.title}} </h3>
-              <h4 class="subtitle"> {{item.subtitle}} </h4>
-              <a href="{{item.booking-url}}" target="_blank" class="cta-button">Book now</a>
-            </div>
+        <div>
+          <div class="square bg-image text-right {{item.photo_image}}">
+            <!-- image -->
           </div>
-        </a>
+          <div class="padded">
+            <h4 class="price featured-text margin-b-03"> {{item.price}} </h4>
+            <h3 class="margin-b-03"> {{item.title}} </h3>
+            <h4 class="subtitle"> {{item.subtitle}} </h4>
+            <a href="{{item.booking-url}}" target="_blank" class="cta-button">Book now</a>
+          </div>
+        </div>
       </div>
       {% endfor %}
   </div>
