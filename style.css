@@ -127,6 +127,10 @@ p a {
     border-bottom: 1px solid var(--dark);
 }
 
+li a {
+    border-bottom: 1px solid var(--dark);
+}
+
 a:hover {
     color: var(--light);
     }
@@ -603,6 +607,7 @@ footer p {
     .mob-hide    {display: none; }
     .mob-show    {display: block;}
     .mob-padded  {padding: 5%;}
+    .mob-padded-lg  {padding: 10%;}
 
     .logo {
         text-align: left;
