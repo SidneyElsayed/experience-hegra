@@ -652,13 +652,13 @@ footer p {
         margin-right: 1rem;
         margin-bottom: 0;
         padding: 1rem;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .mob-post blockquote p {
         margin-bottom: 0;
         padding: 1rem;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         border-left: 3px solid var(--dark);
     }
     }
