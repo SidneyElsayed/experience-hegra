@@ -90,6 +90,8 @@ img {
 
 .margin-tb-lg { margin-top: 10%; margin-bottom: 10%; }
 .margin-lr-lg { margin-left: 10%; margin-right: 10%; }
+.margin-lr-xl { margin-left: 15%; margin-right: 15%; }
+.margin-lr-xxl { margin-left: 20%; margin-right: 20%; }
 
 .tall-20  { min-height: 20vh;  }
 .tall-30  { min-height: 30vh;  }
