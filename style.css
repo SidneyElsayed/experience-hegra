@@ -429,6 +429,12 @@ header nav a {
 .responsive-banner h2 {
     font-size: 7vw;
 }
+/* Coming Soon Banner Styles */
+.coming-soon-banner {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 
 /* Footer Styles */
 
