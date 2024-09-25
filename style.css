@@ -394,9 +394,18 @@ header nav a {
     color: var(--white);
     background-color: var(--dark);
     border: 1px solid var(--dark);
-    padding: 0.5rem 5%;
+    padding: 1.5rem;
     display: inline-block;
-    z-index: 3;
+    position: fixed;
+    right: 2rem;
+    bottom: 6rem;
+    z-index: 2;
+}
+
+.book-now-button:hover {
+    background-color: var(--light);
+    border: 1px solid var(--light);
+    color: white;
 }
 
 /* Mobile Menu Styles */
@@ -410,7 +419,6 @@ header nav a {
     bottom: 0;
     right: 0;
     left: 0;
-   
   }
   
   .mobile-menu a {
