@@ -616,6 +616,16 @@ footer p {
     opacity: 0.8;
     color: var(--light);
   }
+
+#cookie-notice-accept {
+    opacity: 0.8;
+    color: var(--light);
+}
+
+#cookie-notice-accept:hover {
+    color: white;
+}
+
 #close-cookie-banner {
   padding: 1rem;
   cursor: pointer;
