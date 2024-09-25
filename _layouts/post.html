@@ -19,8 +19,11 @@ layout: default
   <h2 class="padded-lr editable"> Related articles </h2>
 </div>
 <section class="grid padded">
+  {% capture pageCategory %}{{ page.categories[0] }}{% endcapture %}
 
-    {% for post in site.posts limit:3 offset:1 %}
+  {% assign relevant-posts = site.categories[pageCategory] | where_exp:"post","post.url != page.url and post.hidden != true" %}
+
+    {% for post in relevant-posts limit:3 offset:1 %}
   
       <div class="col-4_xs-12 padded-1">
         <div class="bg-image square" style="background-image: url('{{post.featured_image}}')"></div>
