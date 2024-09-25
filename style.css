@@ -602,8 +602,12 @@ footer p {
 }
 #cookie-notice .button-subtle {
   opacity: 0.8;
-  color: var(--featured-font);
+  color: var(--dark);
 }
+#cookie-notice .button-subtle:hover {
+    opacity: 0.8;
+    color: var(--light);
+  }
 #close-cookie-banner {
   padding: 1rem;
   cursor: pointer;
