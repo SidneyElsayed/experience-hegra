@@ -372,6 +372,11 @@ header nav a {
     display: block; 
 }
 
+.hover-dark:hover {
+    transition: all 0.2s;
+    color: var(--dark);
+}
+
 .cta-button {
     cursor: pointer;
     text-decoration: none;
@@ -489,6 +494,11 @@ footer p {
 
 .bg-dark {
     background-color: var(--dark);
+    color: var(--white);
+}
+
+.bg-light {
+    background-color: var(--light);
     color: var(--white);
 }
     

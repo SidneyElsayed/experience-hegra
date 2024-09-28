@@ -128,14 +128,8 @@ seo:
   </div>
 </section>
 
-<!-- Article Banner Section -->
-<section class="grid-middle padded padded-b-0 bg-dark tall-20">
-  <h2 class="editable">Explore featured articles about <span class="featured-text big-text">Hegra</span></h2>
-  </section>
-<section>
-  <a href="/articles.html" class="bg-dark leading-page-button padded padded-t-0 text-right">See all articles &nbsp; &#10141; </a>
-</section>
 
+<!-- Articles Section -->
 <section class="grid padded">
 
   {% for post in site.posts limit:3 offset:1 %}
@@ -151,7 +145,6 @@ seo:
 
 </section>
 
-<!-- Articles Section -->
 <section class="grid-middle">
     {% for item in page.articles %}
 
@@ -173,4 +166,12 @@ seo:
     </div>
 
     {% endfor %}
+</section>
+
+<!-- Article Banner Section -->
+<section class="grid-middle padded padded-b-0 bg-light tall-10">
+  <h2 class="editable">Discover more articles about <span class="featured-text big-text">Hegra</span></h2>
+  </section>
+<section>
+  <a href="/articles.html" class="bg-light leading-page-button hover-dark padded padded-t-0 text-right">See all articles &nbsp; &#10141; </a>
 </section>
