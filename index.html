@@ -1,77 +1,6 @@
 ---
 layout: default
 title: Experience Hegra Homepage
-cards:
-   -
-      title: Hegra Tour
-      open: true
-      price: SAR 95
-      subtitle: Daytime tour by coach bus
-      photo_image: bg-image-22
-      inner-url: >-
-          https://experiencehegra.com/booking/hegra-tour.html
-      booking-url: >-
-         https://www.experiencealula.com/en/things-to-do/experiences/hegra-tour
-   -
-      title: Hegra Vintage Land Rover
-      open: true
-      price: From SAR 700 per vehicle
-      subtitle: Daytime tour with private driver
-      photo_image: bg-image-10
-      inner-url: >-
-         https://experiencehegra.com/booking/hegra-vintage.html
-      booking-url: >-
-         https://www.experiencealula.com/en/things-to-do/experiences/vintage-land-rover-hegra-day-tour
-   -
-      title: Hegra Wildlife & Nature Tour
-      open: true
-      price: SAR 150
-      subtitle: Safari through a different side of Hegra
-      photo_image: bg-image-13
-      inner-url: >-
-         https://experiencehegra.com/booking/hegra-wildlife.html
-      booking-url: >-
-         https://www.experiencealula.com/en/things-to-do/experiences/hegra-wildlife-nature-tour
-   -
-      title: Hegra Night Tour
-      open: true
-      price: SAR 60
-      subtitle: By LED bicycle or horse-drawn carriage
-      photo_image: bg-image-15
-      inner-url: >-
-         https://experiencehegra.com/booking/hegra-night-tour.html
-      booking-url: >-
-         https://www.experiencealula.com/en/things-to-do/experiences/hegra-night-tour
-   -
-      title: Hegra by Horse Carriage
-      open: false
-      price: 
-      subtitle: Sunrise or sunset tour
-      photo_image: bg-image-14
-      inner-url: >-
-         https://experiencehegra.com/booking/hegra-horse-carriage.html
-      booking-url: >-
-         https://www.experiencealula.com/en/things-to-do/experiences/hegra-by-horse-carriage
-   -
-      title: The Living Museum Augmented Reality
-      open: false
-      price: 
-      subtitle: Enhanced tour with AR glasses
-      photo_image: bg-image-12
-      inner-url: >-
-         https://experiencehegra.com/booking/hegra-augmented-reality.html
-      booking-url: >-
-         
-   -
-      title: Hegra After Dark
-      open: false
-      price: 
-      subtitle: Limited-time immersive experience
-      photo_image: bg-image-16
-      inner-url: >-
-         https://experiencehegra.com/booking/hegra-after-dark.html
-      booking-url: >-
-         
 seo:
    title: Experience Hegra
    description: >-
@@ -96,19 +25,19 @@ seo:
 <!-- Booking Options Cards -->
 <section class="padded mob-padded-0 padded-r-0">
   <h2 class="editable"> Booking Options </h2>
-  <div class="grid horizontal-scroll">
+   <div class="grid horizontal-scroll">
   
-      {% for item in page.cards %}
+      {% for item in site.booking %}
       <!--   Card 1     -->
       <div class="col-3_xs-11 card card-index">
         <div class="relative">
-         {% if item.open != 'true' %}
+         {% if item.open == 'true' %}
             <div>
                <h4 id="back-soon">Coming back soon</h4>
             </div>
          {% endif %}
 
-          <div class="square bg-image text-right {{item.photo_image}}">
+          <div class="square bg-image text-right {{item.card_image}}">
             <!-- image -->
           </div>
           <div class="padded">
@@ -121,7 +50,7 @@ seo:
         </div>
       </div>
       {% endfor %}
-  </div>
+   </div>
 </section>
 <section>
   <a href="/booking.html" class="padded leading-page-button padded-t-0 text-right">See all booking options &nbsp; &#10141; </a>

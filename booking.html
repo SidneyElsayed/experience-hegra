@@ -1,50 +1,7 @@
 ---
 layout: default
-title: Booking Hegra Experiences
-featured_image: /images/experience-hegra-2.jpg
-cards:
- - title: Hegra Tour
-   price: SAR 95
-   subtitle: Daytime tour by coach bus
-   photo_image: bg-image-22
-   inner-url: https://experiencehegra.com/booking/hegra-tour.html
-   url: https://www.experiencealula.com/en/things-to-do/experiences/hegra-tour
- - title: Hegra Vintage Land Rover
-   price: From SAR 700 per vehicle
-   subtitle: Daytime tour with private driver
-   photo_image: bg-image-10
-   inner-url: https://experiencehegra.com/booking/hegra-vintage.html
-   url: https://www.experiencealula.com/en/things-to-do/experiences/vintage-land-rover-hegra-day-tour
- - title: Hegra Wildlife & Nature Tour
-   price: SAR 150
-   subtitle: Safari through a different side of Hegra
-   photo_image: bg-image-13
-   inner-url: https://experiencehegra.com/booking/hegra-wildlife.html
-   url: https://www.experiencealula.com/en/things-to-do/experiences/hegra-wildlife-nature-tour
- - title: Hegra Night Tour
-   price: 
-   subtitle: By LED bicycle or horse-drawn carriage
-   photo_image: bg-image-15
-   inner-url: https://experiencehegra.com/booking/hegra-night-tour.html
-   url: https://www.experiencealula.com/en/things-to-do/experiences/hegra-night-tour
- - title: Hegra by Horse Carriage
-   price: 
-   subtitle: Sunrise or sunset tour
-   photo_image: bg-image-14
-   inner-url: https://experiencehegra.com/booking/hegra-horse-carriage.html
-   url: https://www.experiencealula.com/en/things-to-do/experiences/hegra-by-horse-carriage
- - title: The Living Museum Augmented Reality
-   price: 
-   subtitle: Enhanced tour with AR glasses
-   photo_image: bg-image-12
-   inner-url: https://experiencehegra.com/booking/hegra-augmented-reality.html
-   url: 
- - title: Hegra After Dark
-   price: 
-   subtitle: Limited-time immersive experience
-   photo_image: bg-image-16
-   inner-url: https://experiencehegra.com/booking/hegra-after-dark.html
-   url: 
+title: Book your Hegra experience
+featured_image: /images/experience-hegra-2.jpg 
 seo:
   title: Booking Hegra Experiences
   description: >-
@@ -70,11 +27,11 @@ seo:
   <h2 class="editable"> Booking Options </h2>
   <div class="grid">
   
-      {% for item in page.cards %}
+      {% for item in site.booking %}
       <!--   Card 1     -->
       <div class="col-4_sm-12-spaceBetween card card-booking margin-b-2"> 
         <div>
-          <div class="square bg-image text-right {{item.photo_image}}">
+          <div class="square bg-image text-right {{item.card_image}}">
             <!-- image -->
           </div>
           <div class="padded">
