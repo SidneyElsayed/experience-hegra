@@ -4,6 +4,7 @@ title: Experience Hegra Homepage
 cards:
    -
       title: Hegra Tour
+      open: true
       price: SAR 95
       subtitle: Daytime tour by coach bus
       photo_image: bg-image-22
@@ -13,6 +14,7 @@ cards:
          https://www.experiencealula.com/en/things-to-do/experiences/hegra-tour
    -
       title: Hegra Vintage Land Rover
+      open: true
       price: From SAR 700 per vehicle
       subtitle: Daytime tour with private driver
       photo_image: bg-image-10
@@ -22,6 +24,7 @@ cards:
          https://www.experiencealula.com/en/things-to-do/experiences/vintage-land-rover-hegra-day-tour
    -
       title: Hegra Wildlife & Nature Tour
+      open: true
       price: SAR 150
       subtitle: Safari through a different side of Hegra
       photo_image: bg-image-13
@@ -31,6 +34,7 @@ cards:
          https://www.experiencealula.com/en/things-to-do/experiences/hegra-wildlife-nature-tour
    -
       title: Hegra Night Tour
+      open: true
       price: SAR 60
       subtitle: By LED bicycle or horse-drawn carriage
       photo_image: bg-image-15
@@ -40,6 +44,7 @@ cards:
          https://www.experiencealula.com/en/things-to-do/experiences/hegra-night-tour
    -
       title: Hegra by Horse Carriage
+      open: false
       price: 
       subtitle: Sunrise or sunset tour
       photo_image: bg-image-14
@@ -49,6 +54,7 @@ cards:
          https://www.experiencealula.com/en/things-to-do/experiences/hegra-by-horse-carriage
    -
       title: The Living Museum Augmented Reality
+      open: false
       price: 
       subtitle: Enhanced tour with AR glasses
       photo_image: bg-image-12
@@ -58,6 +64,7 @@ cards:
          
    -
       title: Hegra After Dark
+      open: false
       price: 
       subtitle: Limited-time immersive experience
       photo_image: bg-image-16
@@ -94,14 +101,14 @@ seo:
       {% for item in page.cards %}
       <!--   Card 1     -->
       <div class="col-3_xs-11 card card-index">
-        <div>
-          <div class="relative square bg-image text-right {{item.photo_image}}">
-            <!-- {% assign back_soon_tag = site.booking | where: 'open', false %}
-            {% for booking in back_soon_tag %}
+        <div class="relative">
+         {% if item.open != 'true' %}
             <div>
                <h4 id="back-soon">Coming back soon</h4>
             </div>
-            {% endfor %} -->
+         {% endif %}
+
+          <div class="square bg-image text-right {{item.photo_image}}">
             <!-- image -->
           </div>
           <div class="padded">
