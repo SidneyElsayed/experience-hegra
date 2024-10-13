@@ -31,7 +31,7 @@ seo:
       <!--   Card 1     -->
       <div class="col-3_xs-11 card card-index">
         <div class="relative">
-         {% if item.open == 'true' %}
+         {% if item.open != true %}
             <div>
                <h4 id="back-soon">Coming back soon</h4>
             </div>
@@ -45,7 +45,9 @@ seo:
             <h3 class="margin-b-03"> {{item.title}} </h3>
             <h4 class="subtitle"> {{item.subtitle}} </h4>
             <a href="{{item.inner-url}}" class="cta-button-light">Learn more</a>
+            {% if item.open == true %}
             <a href="{{item.booking-url}}" target="_blank" class="cta-button">Book now</a>
+            {% endif %}
           </div>
         </div>
       </div>

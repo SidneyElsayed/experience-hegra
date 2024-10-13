@@ -1,0 +1,29 @@
+<section class="padded other-experiences">
+
+    <h4 class="center sm-medium-text"> Other experiences at Hegra </h4>
+    
+    <div class="grid-center">
+    
+
+    <!-- {% assign other-experiences = site.booking | where_exp:"experience","experience.inner-url != page.url and post.hidden != true" %} -->
+
+    {% assign featured_experiences = site.booking | where: 'featured', true %}
+
+      {% for experience in featured_experiences limit:3 %}
+    
+        <a href="{{experience.inner-url}}" class="col-4_xs-12 padded-2">
+            <div class="card">
+                <div class="bg-image square margin-b-05" style="background-image:url({{experience.featured_image}})"> </div>
+                
+                <div class="padded">
+                    <h4 class="price featured-text margin-b-03"> {{experience.price}} </h4>
+                    <h3 class="margin-b-03"> {{experience.title}} </h3>
+                    <h4 class="subtitle"> {{experience.subtitle}} </h4>
+                </div>
+            </div>
+        </a>
+
+      {% endfor %}
+    </div>
+    
+</section>
