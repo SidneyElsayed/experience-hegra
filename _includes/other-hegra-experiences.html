@@ -5,9 +5,9 @@
     <div class="grid-center">
     
 
-    <!-- {% assign other-experiences = site.booking | where_exp:"experience","experience.inner-url != page.url and post.hidden != true" %} -->
+    {% assign other-experiences = site.booking | where_exp:"experience","experience.inner-url != page.url and 'featured' == true" %}
 
-    {% assign featured_experiences = site.booking | where: 'featured', true %}
+    <!-- {% assign featured_experiences = site.booking | where: 'featured', true %} -->
 
       {% for experience in featured_experiences limit:3 %}
     
