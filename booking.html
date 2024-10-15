@@ -27,7 +27,8 @@ seo:
   <h2 class="editable"> Booking Options </h2>
   <div class="grid">
   
-      {% for item in site.booking %}
+      {% assign sorted-tours = site.booking | sort: "order" %}
+      {% for item in sorted-tours %}
       <!--   Card 1     -->
       <div class="col-4_sm-12-spaceBetween card-booking margin-b-2"> 
         <div class="card">

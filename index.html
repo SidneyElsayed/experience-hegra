@@ -27,7 +27,8 @@ seo:
   <h2 class="editable"> Booking Options </h2>
    <div class="grid horizontal-scroll">
   
-      {% for item in site.booking %}
+      {% assign sorted-tours = site.booking | sort: "order" %}
+      {% for item in sorted-tours %}
       <!--   Card 1     -->
       <div class="col-3_xs-11 card card-index">
         <div class="relative">
