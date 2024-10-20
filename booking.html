@@ -32,7 +32,8 @@ seo:
       <!--   Card 1     -->
       <div class="col-4_sm-12-spaceBetween card-booking margin-b-2"> 
         <div class="card">
-          <div class="relative square bg-image text-right {{item.card_image}}">
+          <div class="relative square bg-image text-right"
+               style ="background-image: url(' {{item.card_image}}');">
             {% if item.open != true %}
             <div>
                <h4 id="back-soon">Coming back soon</h4>
