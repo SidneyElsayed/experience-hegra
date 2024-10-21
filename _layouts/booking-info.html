@@ -16,31 +16,16 @@ layout: default
 <!-- Page Overview -->
 <section class="padded mob-padded-lg">
     <h2>Overview</h2>
-    <p class="editable">{{page.overview}}</p>
+    <p>{{page.overview}}</p>
 </section>
 
 <hr>
 
 <!-- Info Icons Section -->
 <section class="padded">
-    <div>
-        <div style="display:inline-block">
-            <i class="fa-solid fa-ticket info-icons"></i>
-            <p style="display:inline-block">{{page.price}}</p>
-        </div>
-        <div style="display:inline-block">
-            <i class="fa-solid fa-clock info-icons"></i>
-            <p style="display:inline-block">{{page.duration}}</p>
-        </div>
-        <div style="display:inline-block">
-            <i class="fa-solid fa-comment info-icons"></i>
-            <p style="display:inline-block">English & Arabic</p>
-        </div>
-        <div style="display:inline-block">
-            <i class="fa-solid fa-person info-icons"></i>
-            <p style="display:inline-block">{{page.age}}</p>
-        </div>
-    </div>
+    
+    {% include booking-info-tags.html %}
+
 </section>
 
 <!-- Gallery Slider evenetually -->
