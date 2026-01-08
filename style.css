@@ -154,7 +154,9 @@ hr {
 .sm-medium-text { font-size: 1.6rem; }
 .medium-text { font-size: 2rem; }
 .big-text    { font-size: 3rem; }
-.extra-big-text    { font-size: 4.5rem; }
+.xl-text    { font-size: 4.5rem; }
+.xxl-text    { font-size: 5.5rem; }
+.xxxl-text    { font-size: 6.5rem; }
     
 h2:last-child, 
 h3:last-child, 
@@ -168,6 +170,34 @@ p:last-child {
 .text-left   { text-align: left;   }
 .text-right  { text-align: right;  }
 .text-center { text-align: center; }
+
+/* List Styles */
+ol, ul {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  
+  ul li {
+    list-style-type: disc;
+  
+  }
+  
+  ol li {
+    list-style-type: decimal;
+  }
+  
+  li {
+    display: list-item;
+    list-style-position: inside;
+    vertical-align: text-top;
+    padding-left: 1.5rem;
+  }
+  
+  li p {
+  
+    padding-bottom: 0.6rem;
+  }
+  
 
 /* Header Styles */
 header {
