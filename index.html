@@ -93,6 +93,43 @@ seo:
   </div>
 </section> -->
 
+<!-- FAQ section -->
+
+<section class="bg-light">
+  <div class="max-width mx-auto padded">
+    
+    <h4 class="content-block pb-6 medium-text">Frequently Asked Questions</h4>
+    <!-- Question 1 -->
+    <button class="accordion sm-medium-text"><strong>How do I get to Hegra?</strong></button>
+    <div class="panel">
+      <p>Hegra is an easy drive from the most of the hotels in AlUla — just hop in your car (taxis aren't recommended because of the waiting time), and you’ll be there in about 20 minutes. There’s convenient parking at the visitor center, or you can grab a shuttle from Winter Park. <strong>Note:</strong>Most tours need tickets booked in advance! During the peak season, make sure to book your Hegra tour well in advance, as there may be limited space.</p>
+    </div>
+    <!-- Question 2 -->
+    <button class="accordion sm-medium-text"><strong>What should I wear?</strong></button>
+    <div class="panel">
+      <p>Think comfort and sun protection! Light, breathable clothing is your best bet, along with a hat, sunglasses, and sunscreen. Sturdy walking shoes are a must, since you’ll want to explore the sandy paths and rocky corners without worry. If you’re visiting in the cooler months, a light jacket can come in handy for breezy mornings and evenings. While you'll want to get the best Instagram-worthy photo, please remember it's a cultural site and to dress respectfully.</p>
+    </div>
+    <!-- Question 3 -->
+    <button class="accordion sm-medium-text"><strong>Are tours guided?</strong></button>
+    <div class="panel">
+      <p>Absolutely! Because Hegra is a regulated UNESCO site, guides, known as "rawis" are mandatory. You'll also be accompanied by a ranger, who is there to help make sure the sites are preserved as much as possible. These guided tours are available in several languages and are a fantastic way to dive deeper into Hegra’s stories. Knowledgeable guides - usually from AlUla - bring the site to life, sharing fascinating facts and hidden details you might miss on your own. Whether you’re a history buff or a casual explorer, a guided tour is highly recommended.</p>
+    </div> 
+    <!-- Question 4 -->
+    <button class="accordion sm-medium-text"><strong>Is it family-friendly?</strong></button>
+    <div class="panel">
+      <p>Yes! Hegra is a wonderful destination for visitors of all ages. Kids love the sense of adventure, and there’s plenty of space for families to explore together. The site is well-managed, with safety and comfort in mind, so everyone can enjoy this journey into the past.</p>
+    </div> 
+    <!-- Question 5 -->
+    <button class="accordion sm-medium-text"><strong>When is the best time to visit?</strong></button>
+    <div class="panel">
+      <p>The cooler months — October through March — are perfect for discovering Hegra. You’ll enjoy pleasant temperatures and clear skies, making it ideal for wandering among the tombs and soaking up the desert scenery. Early mornings and late afternoons are especially magical, with beautiful light for photos and fewer crowds, but make sure to bring a jacket as it can get chilly.</p>
+    </div> 
+
+  </div>
+</section>
+
+
+
 
 <!-- Articles Section -->
 <section class="grid padded">
@@ -140,3 +177,32 @@ seo:
 <section>
   <a href="/articles.html" class="bg-light leading-page-button hover-dark padded padded-t-0 text-right">See all articles &nbsp; &#10141; </a>
 </section>
+
+
+<!-- Mini Style Sheet -->
+<style>
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  </style>
+  
+  <script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      }
+    });
+  }
+  </script>
