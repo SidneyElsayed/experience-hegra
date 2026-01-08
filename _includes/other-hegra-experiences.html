@@ -5,7 +5,7 @@
     <div class="grid-center">
     
 
-    {% assign other-experiences = site.booking | where_exp:"experience","experience.inner-url != page.url and 'featured' == true" %}
+    {% assign other-hegra-experiences = site.booking | where_exp:"experience","experience.inner-url != page.url %}
 
     <!-- {% assign featured_experiences = site.booking | where: 'featured', true %} -->
 
