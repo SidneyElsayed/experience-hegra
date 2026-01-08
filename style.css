@@ -153,7 +153,8 @@ hr {
 
 .sm-medium-text { font-size: 1.6rem; }
 .medium-text { font-size: 2rem; }
-.big-text    { font-size: 2.5rem; }
+.big-text    { font-size: 3rem; }
+.extra-big-text    { font-size: 4.5rem; }
     
 h2:last-child, 
 h3:last-child, 
@@ -271,7 +272,7 @@ header nav a {
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.25);
   }
   
   .bg-overlay > * {
@@ -581,6 +582,9 @@ footer p {
 .bg-image-25 { background-image: url('/images/experience-hegra-25.jpg'); }
 .bg-image-26 { background-image: url('/images/experience-hegra-26.jpg'); }
 .bg-image-27 { background-image: url('/images/experience-hegra-27.jpg'); }
+
+
+.bg-image-landscape { background-image: url('/images/experience-hegra-landscape.jpg'); }
 
 .bg-image-naika-rover { 
     background-image: url('/images/experience-hegra-naika-1.jpg'); 
